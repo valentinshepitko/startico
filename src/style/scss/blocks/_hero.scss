@@ -1,0 +1,71 @@
+.hero{
+
+  background-color: $dark-blue;
+  position: relative;
+  margin-bottom: 200px;
+
+  &__content-holder{
+    margin: 0 auto;
+    padding-top: 95px;
+    padding-bottom: 22px;
+  }
+
+  &__title{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 56px;
+    color: white;
+    text-align: center;
+    max-width: 695px;
+    margin: 0 auto;
+    padding-bottom: 26px;
+  }
+
+  &__text{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 713px;
+    line-height: 30px;
+  }
+
+  &__button-holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 55px;
+  }
+
+  &__logo-holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    padding-bottom: 460px;
+  }
+
+  &__image{
+    position: absolute;
+    bottom: -280px;
+  }
+
+  &__decor{
+    position: absolute;
+    top: 103px;
+    left: 5px;
+  }
+
+  &__decor2{
+    position: absolute;
+    left: 5px;
+    top: 464px;
+  }
+
+  &__decor3{
+    position: absolute;
+    top: 260px;
+    right: 5px;
+  }
+}

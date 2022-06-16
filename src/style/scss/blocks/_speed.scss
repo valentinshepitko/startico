@@ -1,0 +1,33 @@
+.speed{
+  padding-top: 200px;
+
+  &__holder{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 65px;
+  }
+
+  &__pre-title{
+    width: 72px;
+    height: 32px;
+    border-radius: 64px;
+    background-color: $yellow;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    padding: 6px;
+  }
+
+  &__title{
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 15px;
+  }
+
+  &__text{
+    max-width: 590px;
+  }
+
+
+}

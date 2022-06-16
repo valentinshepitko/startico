@@ -1,0 +1,76 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.get-started-button{
+  font-size: 15px;
+  width: 139px;
+  height: 52px;
+  color: $dark-blue;
+  font-weight: 700;
+  text-align: center;
+  padding: 15px;
+  border: 2px solid $dark-blue;
+  border-radius: 64px;
+
+    &:hover{
+      background-color: $yellow;
+      color: $dark-blue;
+      transition: ease-in-out 0.2s;
+  }
+
+  &_yellow{
+    background-color: $yellow;
+
+    &:hover{
+      background-color: transparent;
+      color: white;
+      transition: ease-in-out 0.2s;}
+  }
+
+
+
+ .try-free-button{
+   border: 2px solid #162E3C;
+   border-radius: 64px;
+   background-color: $dark-blue;
+   color: white;
+   padding: 12px 20px;
+   font-weight: 700;
+ }
+}

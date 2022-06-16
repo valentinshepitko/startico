@@ -1,0 +1,66 @@
+.header{
+
+
+  &__holder{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 0;
+  }
+
+  &__logo-holder{
+    padding-right: 575px;
+  }
+
+  &__nav{
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+
+  &__nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  &__nav-link{
+    color: $dark-blue;
+
+    &:hover{
+      color: $yellow;
+      transition: ease-in-out 0.2s;
+    }
+  }
+
+  &__button-holder{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  &__button-login{
+    color: $dark-blue;
+    border: 2px solid #162E3C;
+    border-radius: 64px;
+    padding: 10px 20px;
+
+    &:hover{
+      background-color: $dark-blue;
+      color: white;
+      transition: ease-in-out 0.2s;
+    }
+  }
+
+  &__button-try-free{
+    border: 2px solid #162E3C;
+    border-radius: 64px;
+    background-color: $dark-blue;
+    color: white;
+    padding: 10px 20px;
+
+    &:hover{
+      background-color: white;
+      color: $dark-blue;
+      transition: ease-in-out 0.2s;
+    }
+  }
+}
