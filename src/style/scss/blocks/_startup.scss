@@ -1,0 +1,86 @@
+.startup{
+
+  padding-bottom: 128px;
+
+  &__wrapper{
+    background-color: $yellow;
+    border-radius: 48px;
+  }
+
+  &__heading{
+    margin: 0 auto;
+  }
+
+  &__title-holder{
+    padding-top: 127px;
+    padding-bottom: 62px;
+  }
+
+  &__title{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    line-height: 48px;
+    padding-bottom: 27px;
+    max-width: 704px;
+    margin: 0 auto;
+  }
+
+  &__text{
+    font-size: 18px;
+    line-height: 27px;
+    color: $dark-blue;
+    max-width: 744px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  &__column-holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    padding-bottom: 48px;
+  }
+
+  &__content-holder{
+    padding: 0 54px;
+  }
+
+  &__column{
+    max-width: 363px;
+    background-color: $dark-blue;
+    border-radius: 24px;
+  }
+
+  &__icon{
+    margin: 0 auto;
+    padding-top: 22px;
+    padding-bottom: 15px;
+  }
+
+  &__item-name{
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    color: white;
+    padding-bottom: 17px;
+  }
+
+  &__content{
+    max-width: 255px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    padding-bottom: 31px;
+  }
+
+  &__button-holder{
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+    padding-bottom: 128px;
+  }
+}
