@@ -1,6 +1,7 @@
 .pricing{
 
   padding-bottom: 128px;
+  position: relative;
 
   &__title-holder{
     text-align: center;
@@ -166,9 +167,27 @@
     font-weight: 700;
     padding: 20px 125px;
 
+    &:hover{
+      background-color: $dark-blue;
+      color: white;
+      transition: ease-in-out 0.2s;
+    }
+
     &_blue{
       background-color: $dark-blue;
       color: white;
+
+      &:hover{
+        background-color: $yellow;
+        color: $dark-blue;
+        transition: ease-in-out 0.2s;
+      }
     }
+  }
+
+  &__wave{
+    position: absolute;
+    right: 0;
+    top: 45px;
   }
 }

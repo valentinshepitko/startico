@@ -1,0 +1,77 @@
+.footer{
+
+  background-color: $dark-blue;
+  padding-top: 100px;
+
+
+  &__holder{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 88px;
+  }
+
+  &__logo-column{
+    padding-right: 300px;
+  }
+
+  &__column{
+    padding-right: 145px;
+  }
+
+  &__logo-holder{
+    padding-bottom: 24px;
+  }
+
+  &__address{
+    color: white;
+    font-size: 14px;
+    padding-bottom: 21px;
+  }
+
+  &__contact{
+    color: white;
+    font-size: 14px;
+  }
+
+  &__mail{
+    color: white;
+    font-size: 14px;
+  }
+
+  &__column-name{
+    font-size: 15px;
+    color: white;
+    padding-bottom: 24px;
+  }
+
+  &__link-item{
+    padding-bottom: 8px;
+  }
+
+  &__link{
+    font-size: 14px;
+    color: white;
+  }
+
+  &__line{
+    border-top: solid 1px #223E4E;
+  }
+
+  &__copyright-social{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 42px;
+    padding-bottom: 90px;
+  }
+
+  &__copyright{
+    font-size: 14px;
+    color: white;
+  }
+
+  &__social-link{
+    padding-right: 10px;
+    margin-left: -5px;
+  }
+}
