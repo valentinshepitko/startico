@@ -1,0 +1,99 @@
+.blog{
+
+  &__title-holder{
+    text-align: center;
+  }
+
+  &__pre-title{
+    width: 58px;
+    height: 32px;
+    border-radius: 64px;
+    background-color: $yellow;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    padding: 6px 12px 4px 12px;
+    margin: 0 auto;
+  }
+
+  &__title{
+    padding-top: 15px;
+    padding-bottom: 24px;
+    font-size: 48px;
+    font-family: 'Fraunces', serif;
+  }
+
+  &__desc{
+    padding-bottom: 80px;
+    font-size: 18px;
+  }
+
+  &__column-holder{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__column{
+    max-width: 403px;
+    max-height: 664px;
+    border-radius: 32px;
+    border: 1px solid #E5E7EB;
+    position: relative;
+  }
+
+  &__image{
+    padding-bottom: 24px;
+  }
+
+  &__section-holder{
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+  &__chapter{
+    border: 1px solid #E5E7EB;
+    border-radius: 32px;
+    font-size: 13px;
+    padding: 9px 17px;
+    color: $dark-blue;
+  }
+
+  &__read{
+    font-size: 13px;
+    color: $dark-blue;
+    padding-left: 16px;
+  }
+
+  &__heading{
+    font-size: 24px;
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    max-width: 341px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+  &__text{
+    max-width: 343px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 100px;
+  }
+
+  &__read-more-holder{
+    text-align: center;
+    position: absolute;
+  }
+
+  &__read-more{
+    font-size: 15px;
+    color: $dark-blue;
+    position: relative;
+
+    &:before{
+      content: '';
+      position: absolute;
+      background-image: url('https://i.imgur.com/MJekAr4.gif');
+    }
+  }
+}

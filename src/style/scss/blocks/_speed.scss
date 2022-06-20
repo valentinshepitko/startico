@@ -1,12 +1,12 @@
 .speed{
   padding-top: 200px;
-  position: relative;
   margin-bottom: 100px;
 
   &__holder{
     display: flex;
     flex-wrap: wrap;
     gap: 90px;
+    position: relative;
   }
 
   &__content{
@@ -53,8 +53,8 @@
     max-width: 420px;
     padding: 24px;
     justify-content: center;
-    bottom: 55px;
-    left: 335px;
+    bottom: 58px;
+    left: 240px;
     position: absolute;
   }
 

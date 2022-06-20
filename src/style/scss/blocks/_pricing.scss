@@ -1,0 +1,174 @@
+.pricing{
+
+  padding-bottom: 128px;
+
+  &__title-holder{
+    text-align: center;
+    padding-bottom: 80px;
+  }
+
+  &__pre-title{
+    width: 88px;
+    height: 32px;
+    border-radius: 64px;
+    background-color: $yellow;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    padding: 6px 12px 4px 12px;
+    margin: 0 auto;
+  }
+
+  &__title{
+    padding-top: 15px;
+    padding-bottom: 24px;
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 48px;
+  }
+
+  &__column-holder{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  &__column-wrapper{
+    padding-top: 80px;
+  }
+
+  &__column{
+    background-color: $dark-blue;
+    max-height: 668px;
+    max-width: 405px;
+    position: relative;
+    border-radius: 32px;
+
+    &_yellow{
+      background-color: $yellow;
+      max-height: 732px;
+    }
+  }
+
+  &__column-content{
+    padding: 112px 30px 32px 30px;
+  }
+
+  &__icon{
+    position: absolute;
+    right: 32px;
+    top: 32px;
+  }
+
+  &__plan{
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    color: white;
+    padding-bottom: 10px;
+
+    &_blue{
+      color: $dark-blue;
+    }
+  }
+
+  &__price{
+    font-size: 56px;
+    font-family: 'Fraunces', serif;
+    color: white;
+    padding-bottom: 8px;
+
+    &_blue{
+      color: $dark-blue;
+    }
+  }
+
+  &__month{
+    font-size: 32px;
+
+    &_blue{
+      color: $dark-blue;
+    }
+  }
+
+  &__year-price{
+    font-size: 16px;
+    color: white;
+    padding-bottom: 32px;
+
+    &_blue{
+      color: $dark-blue;
+    }
+  }
+
+  &__column-line{
+    border-top: 1px solid #223E4E;
+    padding-bottom: 32px;
+    max-width: 341px;
+  }
+
+  &__include{
+    font-size: 15px;
+    color: white;
+    padding-bottom: 24px;
+
+    &_blue{
+      color: $dark-blue;
+    }
+  }
+
+  &__list-holder{
+    padding-bottom: 100px;
+
+    &_yellow{
+      padding-bottom: 145px;
+    }
+  }
+
+  &__item{
+    font-size: 15px;
+    color: white;
+    padding-bottom: 16px;
+
+    &:before{
+      content: '';
+      border-radius: 100px;
+      width: 24px;
+      background-color: $yellow;
+      padding-right: 20px;
+      margin-right: 20px;
+    }
+
+    &_blue{
+      color: $dark-blue;
+
+      &:before{
+        content: '';
+        border-radius: 100px;
+        width: 24px;
+        background-color: $dark-blue;
+        padding-right: 20px;
+        margin-right: 20px;
+      }
+    }
+  }
+
+  &__button-holder{
+    text-align: center;
+    padding-bottom: 32px;
+  }
+
+  &__button{
+    border-radius: 64px;
+    width: 341px;
+    height: 52px;
+    background-color: $yellow;
+    color: $dark-blue;
+    font-weight: 700;
+    padding: 20px 125px;
+
+    &_blue{
+      background-color: $dark-blue;
+      color: white;
+    }
+  }
+}
