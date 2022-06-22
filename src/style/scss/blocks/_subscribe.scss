@@ -1,9 +1,15 @@
 .subscribe{
 
+  position: relative;
+  padding-bottom: 190px;
 
   &__yellow-holder{
     background-color: $yellow;
     border-radius: 48px;
+    position: absolute;
+    width: 1280px;
+    max-width: 1280px;
+    bottom: -230px;
   }
 
   &__title{

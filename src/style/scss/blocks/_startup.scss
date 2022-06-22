@@ -5,6 +5,7 @@
   &__wrapper{
     background-color: $yellow;
     border-radius: 48px;
+    position: relative;
   }
 
   &__heading{
@@ -82,5 +83,11 @@
     display: flex;
     gap: 15px;
     padding-bottom: 128px;
+  }
+
+  &__element{
+    position: absolute;
+    top: 0;
+    right: 40px;
   }
 }

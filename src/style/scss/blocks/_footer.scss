@@ -1,7 +1,7 @@
 .footer{
 
   background-color: $dark-blue;
-  padding-top: 100px;
+  padding-top: 320px;
 
 
   &__holder{
@@ -28,6 +28,15 @@
     padding-bottom: 21px;
   }
 
+  &__address-link{
+    color: white;
+
+    &:hover{
+      color: $yellow;
+      transition: ease-in-out 0.2s;
+    }
+  }
+
   &__contact{
     color: white;
     font-size: 14px;
@@ -51,6 +60,11 @@
   &__link{
     font-size: 14px;
     color: white;
+
+    &:hover{
+      color: $yellow;
+      transition: ease-in-out 0.2s;
+    }
   }
 
   &__line{
@@ -73,5 +87,12 @@
   &__social-link{
     padding-right: 10px;
     margin-left: -5px;
+  }
+
+  &__link-hover{
+    &:hover{
+      fill: white;
+      transition: ease-in-out 0.2s;
+    }
   }
 }
